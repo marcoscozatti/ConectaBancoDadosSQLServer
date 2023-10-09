@@ -35,6 +35,13 @@ namespace ConectaBancoDadosSQLServer.Controllers
 
         }
 
+        public IActionResult htmlpage()
+        {
+
+            return View();
+
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
